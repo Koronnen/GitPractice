@@ -2,6 +2,7 @@ public class anotherone {
     private boolean isValid;
     private int statuscode;
     private String message;
+    private String notification;
 
     public anotherone(boolean isValid, int statuscode) {
         this.isValid = isValid;
@@ -18,6 +19,11 @@ public class anotherone {
 
     public String getMessage() {
         return message;
+    }
+
+    public String getNotification(){
+        notification = "hello!";
+        return notification;
     }
     
 }
