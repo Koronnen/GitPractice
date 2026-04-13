@@ -6,5 +6,12 @@ public class anotherone {
         this.isValid = isValid;
         this.statuscode = statuscode;
     }
+
+    public boolean getValid() {
+        return isValid;
+    }
+    public int getStatuscode() {
+        return statuscode;
+    }
     
 }
