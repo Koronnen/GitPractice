@@ -12,5 +12,6 @@ class practice {
         anotherone obj = new anotherone(validity, statusCode);
         System.out.println("Is Valid: " + obj.getValid());
         System.out.println("Status Code: " + obj.getStatuscode());
+        System.out.println("Message: " + obj.getMessage());
     }
 }
