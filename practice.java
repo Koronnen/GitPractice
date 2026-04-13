@@ -13,5 +13,7 @@ class practice {
         System.out.println("Is Valid: " + obj.getValid());
         System.out.println("Status Code: " + obj.getStatuscode());
         System.out.println("Message: " + obj.getMessage());
+        
+        arithmeticunit ALU = new arithmeticunit(6, 7);
     }
 }
